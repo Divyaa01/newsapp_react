@@ -7,12 +7,12 @@ export class NewsItem extends Component {
     return (
       <div>
         
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap"/>
-                    <div class="card-body">
-                        <h5 class={title}>Card title</h5>
-                        <p class="card-text">{desc}</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div className="card my-3" style={{width: "18rem"}}>
+                <img className="card-img-top" src="..." alt="Card image cap"/>
+                    <div className="card-body">
+                        <h5 className={title}>Card title</h5>
+                        <p className="card-text">{desc}</p>
+                        <a href="/viewnews" className="btn btn-primary">complete news</a> 
                     </div>
             </div>
 
